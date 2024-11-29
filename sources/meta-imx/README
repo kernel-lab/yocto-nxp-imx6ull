@@ -47,7 +47,7 @@ Example for i.MX 6ULL EVK (imx6ull14x14evk)
 $: MACHINE=imx6ullevk DISTRO=fsl-framebuffer source imx-setup-release.sh -b build
 
 where
- <machine> defaults to imx6qsabresd
+ <machine> defaults to imx6ullevk
  <build folder> specifies the build folder name 
 
 After this your system will be configured to start a Yocto Project build.

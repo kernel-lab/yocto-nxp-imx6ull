@@ -82,7 +82,7 @@ fi
 
 if [ -z "$DISTRO" ]; then
     if [ -z "$FSLDISTRO" ]; then
-        FSLDISTRO='fsl-imx-xwayland'
+        FSLDISTRO='fsl-framebuffer'
     fi
 else
     FSLDISTRO="$DISTRO"
@@ -94,7 +94,7 @@ fi
 
 if [ -z "$MACHINE" ]; then
     echo setting to default machine
-    MACHINE='imx6qpsabresd'
+    MACHINE='imx6ullevk'
 fi
 
 case $MACHINE in
