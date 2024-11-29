@@ -43,6 +43,9 @@ If errors on repo init, remove the .repo directory and try repo init again.
 Run i.MX Linux Yocto Project Setup:
 $: [MACHINE=<machine>] [DISTRO=fsl-imx-<backend>] source ./imx-setup-release.sh -b <build folder>
 
+Example for i.MX 6ULL EVK (imx6ull14x14evk)
+$: MACHINE=imx6ullevk DISTRO=fsl-framebuffer source imx-setup-release.sh -b build
+
 where
  <machine> defaults to imx6qsabresd
  <build folder> specifies the build folder name 
